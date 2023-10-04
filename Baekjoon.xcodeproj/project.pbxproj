@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7B08EFF22ACD6B7900F870DB /* 분수찾기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B08EFF12ACD6B7900F870DB /* 분수찾기.swift */; };
+		7B5A67B52ACD815E002A18BE /* 좌표 압축.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5A67B42ACD815E002A18BE /* 좌표 압축.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		7B08EFEE2ACD6B7900F870DB /* Baekjoon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Baekjoon; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B08EFF12ACD6B7900F870DB /* 분수찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "분수찾기.swift"; sourceTree = "<group>"; };
+		7B5A67B42ACD815E002A18BE /* 좌표 압축.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "좌표 압축.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				7B08EFF12ACD6B7900F870DB /* 분수찾기.swift */,
+				7B5A67B42ACD815E002A18BE /* 좌표 압축.swift */,
 			);
 			path = Baekjoon;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B5A67B52ACD815E002A18BE /* 좌표 압축.swift in Sources */,
 				7B08EFF22ACD6B7900F870DB /* 분수찾기.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
