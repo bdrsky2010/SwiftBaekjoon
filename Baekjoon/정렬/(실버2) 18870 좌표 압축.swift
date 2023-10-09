@@ -4,7 +4,6 @@ import Foundation
 let N: Int = Int(readLine()!)!
 let arr = readLine()!.split(separator: " ").map{Int(String($0))!}
 var dic: [Int:Int] = [:]
-var index: Int = 0
 for num in arr.sorted() {
 	if dic[num] == nil {
 		dic[num] = index
